@@ -37,9 +37,23 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
     document.getElementById("slice").innerHTML = results;
 
    //.splice() method//
-    harryPotterCharacters.splice(0, 1, "Luna", "Cho");
+    harryPotterCharacters.splice(2, 3, "Luna", "Cho");
   //render to html//
     document.getElementById("splice").innerHTML = harryPotterCharacters;
+
+  //.filter() method//
+
+  //.find() method//
+
+  // function chosenOne(harryPotterCharacters) {
+  //   return chosenOne = "Harry";
+  // }
+
+  // document.getElementById("find").innerHTML = harryPotterCharacters.find(chosenOne);
+  
+  
+
+
 
 
 
