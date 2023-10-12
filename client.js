@@ -1,5 +1,5 @@
 const harryPotterCharacters = ["Harry", "Ron", "Hermione", "Hagrid" ,"Neville", "Sirius", "Lupin", "Dumbledore", "Snape"]; 
-const harryPotterVillains = ["Voldemore", "Belletrix", "Grindewald"];
+
 
 //render const to html//
 document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
@@ -23,4 +23,13 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
     harryPotterCharacters.shift();
    //render to html//
     document.getElementById("shift").innerHTML = harryPotterCharacters;
+
+   //.concat() method//
+    const harryPotterVillains = ["Voldemort", "Belletrix", "Grindewald"];
+    const harryPotterCreatures = ["Dementor", "Spiders", "Trolls", "Goblins"];
+    const darkforce = harryPotterVillains.concat(harryPotterCharacters);
+   //render to html//
+    document.getElementById("concat").innerHTML = darkforce;
+
+     
 
