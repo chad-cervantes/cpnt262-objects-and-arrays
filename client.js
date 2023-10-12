@@ -43,7 +43,15 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
     document.getElementById("splice").innerHTML = harryPotterCharacters;
 
   //.filter() method//
+   const ages = [17, 17, 17, 40 , 17, 42, 42, 92, 42];
+   const result = ages.filter(checkDumbledore);
 
+   function checkDumbledore(age) {
+    return age >= 50;
+   }
+   //render to html//
+   document.getElementById("filter").innerHTML = ages.filter(checkDumbledore);
+ 
   //.find() method//
     function chosenOne(harryPotterCharacters) {
     return chosenOne = "Harry";
