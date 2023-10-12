@@ -10,7 +10,8 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
    harryPotterCharacters.push("Draco");
   //render to html//
    document.getElementById("push").innerHTML = harryPotterCharacters; 
-  // `.unshift() method//
+  
+   // `.unshift() method//
    harryPotterCharacters.unshift("James");
   //render to html//
    document.getElementById("unshift").innerHTML = harryPotterCharacters;
@@ -58,6 +59,11 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
   }
   //render it to html//
   document.getElementById("find").innerHTML = harryPotterCharacters.find(chosenOne);
+
+  //.includes() method//
+  harryPotterCharacters;
+  //render to html//
+  document.getElementById("include").innerHTML = harryPotterCharacters.includes("Snape");
   
   
 
