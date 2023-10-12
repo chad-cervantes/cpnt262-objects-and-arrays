@@ -8,4 +8,4 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
   //.push() method//
    harryPotterCharacters.push("Draco");
   //render to html//
-   
+  document.getElementById("push").innerHTML = harryPotterCharacters; 
