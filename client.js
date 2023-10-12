@@ -1,4 +1,5 @@
 const harryPotterCharacters = ["Harry", "Ron", "Hermione", "Hagrid" ,"Neville", "Sirius", "Lupin", "Dumbledore", "Snape"]; 
+const harryPotterVillains = ["Voldemore", "Belletrix", "Grindewald"];
 
 //render const to html//
 document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
