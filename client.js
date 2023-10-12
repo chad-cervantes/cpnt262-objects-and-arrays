@@ -36,5 +36,12 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
    //render to html//
     document.getElementById("slice").innerHTML = results;
 
+   //.splice() method//
+    harryPotterCharacters.splice(0, 1, "Luna", "Cho");
+  //render to html//
+    document.getElementById("splice").innerHTML = harryPotterCharacters;
+
+
+
    
 
