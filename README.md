@@ -4,3 +4,4 @@
 
 ### Attributions 
 
+[W3 Schools Arrays](https://www.w3schools.com/js/js_array_methods.asp)
