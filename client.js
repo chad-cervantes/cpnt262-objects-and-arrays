@@ -31,5 +31,10 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
    //render to html//
     document.getElementById("concat").innerHTML = darkforce;
 
-     
+   //.slice()method//
+    let results = harryPotterCharacters.slice(2);
+   //render to html//
+    document.getElementById("slice").innerHTML = results;
+
+   
 
