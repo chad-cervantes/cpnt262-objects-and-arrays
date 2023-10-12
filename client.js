@@ -13,3 +13,8 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
    harryPotterCharacters.unshift("James");
   //render to html//
    document.getElementById("unshift").innerHTML = harryPotterCharacters;
+
+   //.pop() method//
+    harryPotterCharacters.pop();
+   //render to html//
+    document.getElementById("pop").innerHTML = harryPotterCharacters;
