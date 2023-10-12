@@ -44,11 +44,10 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
   //.filter() method//
 
   //.find() method//
-
-  function chosenOne(harryPotterCharacters) {
+    function chosenOne(harryPotterCharacters) {
     return chosenOne = "Harry";
   }
-
+  //render it to html//
   document.getElementById("find").innerHTML = harryPotterCharacters.find(chosenOne);
   
   
