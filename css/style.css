@@ -1,5 +1,7 @@
 h1, #id-characters {
-  text-align: center;
+  text-align: left;
+
+  margin: auto;
 }
 
 .arrays {
