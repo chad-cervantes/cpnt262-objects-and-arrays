@@ -88,7 +88,7 @@ const wins = {
 document.getElementById("wins").innerHTML = wins;
 
   //objects.values() method//
-  console.log(Object.values(wins));
+  // console.log(Object.values(wins));
   //render to html//
   document.getElementById("values").innerHTML = Object.values(wins);
 
