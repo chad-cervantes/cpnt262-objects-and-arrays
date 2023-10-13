@@ -64,15 +64,6 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
   //render to html//
   document.getElementById("include").innerHTML = harryPotterCharacters.includes("Snape");
 
-  //.every() method//
-  // const ages = [17, 17, 17, 40 , 17, 42, 42, 92, 42];
-
-  //  function checkAge(age) {
-  //   return age > 50;
-  //  }
-  // //render to html//
-  // document.getElementById("every").innerHTML = ages.every(checkAge);
-
 
 //OBJECTS//
 
