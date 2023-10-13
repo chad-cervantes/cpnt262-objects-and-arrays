@@ -14,3 +14,8 @@ Objects
 
 Classmates 
 - Brendan Malycky
+
+### Potential Uses for each methods
+
+Arrays
+- Push Method: can add a new product in the string; the new product will show up at the end of the string
