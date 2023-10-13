@@ -27,3 +27,5 @@ Arrays
 - Pop Method: if your latest product isn't available anymore, then you can get rid of it
 - Shift Method: if the first step isn't necessary anymore in a set of instructions, then you can get rid of it
 - Concat Method: if you need to add a certain group of products to your original product list, then you can merge that string
+- Slice Method: if you don't want something in your list, then you can take that certain item out
+- Splice Method: if you want to add something in your list anywhere, then you can add that item anywhere in that list
