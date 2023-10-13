@@ -102,6 +102,24 @@ document.getElementById("wins").innerHTML = wins;
   //render to html//
   document.getElementById("entries").innerHTML = Object.entries(wins); 
 
+  //object.freeze() method//
+
+  const obj = {
+      value: 40,
+  };
+  
+  Object.freeze(obj);
+  console.log(obj.value);
+  //render to html//
+  document.getElementById("freeze").innerHTML = Object.seal(obj);
+
+  //object.seal() method//
+  Object.seal(obj);
+  obj.value = 34;
+  console.log(obj.value);
+  //render to html//
+  document.getElementById("seal").innerHTML = Object.seal(obj);
+
  
   
 
