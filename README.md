@@ -29,3 +29,5 @@ Arrays
 - Concat Method: if you need to add a certain group of products to your original product list, then you can merge that string
 - Slice Method: if you don't want something in your list, then you can take that certain item out
 - Splice Method: if you want to add something in your list anywhere, then you can add that item anywhere in that list
+- Filter Method: you can 'filter' out certain people's information in a survey form, like age
+- Find Method: you can find someone's one in a waitlist 
