@@ -103,22 +103,25 @@ document.getElementById("wins").innerHTML = wins;
   document.getElementById("entries").innerHTML = Object.entries(wins); 
 
   //object.freeze() method//
-
   const obj = {
-      value: 40,
+      value: 40
   };
   
   Object.freeze(obj);
   console.log(obj.value);
   //render to html//
-  document.getElementById("freeze").innerHTML = Object.seal(obj);
+  document.getElementById("freeze").innerHTML = obj.value;
 
   //object.seal() method//
+  const object = {
+    value: 40
+  }
+  
   Object.seal(obj);
-  obj.value = 34;
-  console.log(obj.value);
+  object.value = 34;
+  console.log(object.value);
   //render to html//
-  document.getElementById("seal").innerHTML = Object.seal(obj);
+  document.getElementById("seal").innerHTML = object.value;
 
  
   
