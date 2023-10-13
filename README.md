@@ -9,3 +9,6 @@ Arrays
 
 Objects 
 - [Object keys, values, and entries methods](https://www.youtube.com/watch?v=VmicKaGcs5g)
+
+Classmates 
+- Brendan Malycky
