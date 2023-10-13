@@ -4,4 +4,8 @@
 
 ### Attributions 
 
-[W3 Schools Arrays](https://www.w3schools.com/js/js_array_methods.asp)
+Arrays
+- [W3 Schools Arrays](https://www.w3schools.com/js/js_array_methods.asp)
+
+Objects 
+- [Object keys, values, and entries methods](https://www.youtube.com/watch?v=VmicKaGcs5g)
