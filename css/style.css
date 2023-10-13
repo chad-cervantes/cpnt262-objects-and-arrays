@@ -1,10 +1,19 @@
-h1, #id-characters {
+/* h1, #id-characters {
   text-align: left;
 
   margin: auto;
 }
 
+main {
+  display: flex;
+  
+  justify-content: center;
+ 
+}
+
 .arrays {
+  
+
   text-align: center;
   width: 50%;
 }
@@ -12,8 +21,4 @@ h1, #id-characters {
 .objects {
   text-align: center;
   width: 50%;
-
-  float: right;
-
-  margin-top: -65%;
-}
+} */
