@@ -15,6 +15,8 @@ Objects
 Classmates 
 - Brendan Malycky
 
+### Code Journal
+
 ### Potential Uses for each methods
 
 Arrays
