@@ -25,3 +25,5 @@ Arrays
 - Push Method: can add a new product in the string; the new product will show up at the end of the string
 - Unshift Method: if you misplaced the first step in a set of instructions originally, then you can put it back to the front
 - Pop Method: if your latest product isn't available anymore, then you can get rid of it
+- Shift Method: if the first step isn't necessary anymore in a set of instructions, then you can get rid of it
+- Concat Method: if you need to add a certain group of products to your original product list, then you can merge that string
