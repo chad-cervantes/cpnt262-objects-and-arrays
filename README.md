@@ -9,6 +9,8 @@ Arrays
 
 Objects 
 - [Object keys, values, and entries methods](https://www.youtube.com/watch?v=VmicKaGcs5g)
+- [Object Freeze](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
+- [Object Seal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal)
 
 Classmates 
 - Brendan Malycky
