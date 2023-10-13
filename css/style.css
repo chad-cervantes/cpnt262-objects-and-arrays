@@ -6,3 +6,12 @@ h1, #id-characters {
   text-align: center;
   width: 50%;
 }
+
+.objects {
+  text-align: center;
+  width: 50%;
+
+  float: right;
+
+  margin-top: -132vh;
+}
