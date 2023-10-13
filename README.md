@@ -17,6 +17,8 @@ Classmates
 
 ### Code Journal
 
+- I decided to try to learn and do most of the methods. In order to do that properly, I had to research each one and try to understand their intended purpose. Once I did that, I was able to understand how they worked.
+
 ### Potential Uses for each methods
 
 Arrays
