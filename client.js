@@ -97,6 +97,11 @@ document.getElementById("wins").innerHTML = wins;
   //render to html//
   document.getElementById("keys").innerHTML = Object.keys(wins);
 
+  //objects.entries() method//
+  console.log(Object.entries(wins));
+  //render to html//
+  document.getElementById("entries").innerHTML = Object.entries(wins); 
+
  
   
 
