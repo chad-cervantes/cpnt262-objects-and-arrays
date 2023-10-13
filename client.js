@@ -1,10 +1,9 @@
 const harryPotterCharacters = ["Harry", "Ron", "Hermione", "Hagrid" ,"Neville", "Sirius", "Lupin", "Dumbledore", "Snape"]; 
 
-
 //render const to html//
 document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
 
-//Arrays//
+//ARRAYS//
 
   //.push() method//
    harryPotterCharacters.push("Draco");
@@ -73,6 +72,23 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
   //  }
   // //render to html//
   // document.getElementById("every").innerHTML = ages.every(checkAge);
+
+
+//OBJECTS//
+
+const wins = {
+  Bridgette: 40,
+  Daniel: 37,
+  Gerald: 34,
+  Breanne: 30,
+  Taylor: 27,
+};
+
+//render const to html//
+document.getElementById("wins").innerHTML = wins;
+
+  //objects.values() method//
+ 
   
 
 
