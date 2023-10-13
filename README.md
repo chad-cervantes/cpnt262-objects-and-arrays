@@ -23,3 +23,5 @@ Classmates
 
 Arrays
 - Push Method: can add a new product in the string; the new product will show up at the end of the string
+- Unshift Method: if you misplaced the first step in a set of instructions originally, then you can put it back to the front
+- Pop Method: if your latest product isn't available anymore, then you can get rid of it
