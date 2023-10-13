@@ -91,6 +91,12 @@ document.getElementById("wins").innerHTML = wins;
   console.log(Object.values(wins));
   //render to html//
   document.getElementById("values").innerHTML = Object.values(wins);
+
+  //objects.keys() method//
+  console.log(Object.keys(wins));
+  //render to html//
+  document.getElementById("keys").innerHTML = Object.keys(wins);
+
  
   
 
