@@ -6,6 +6,9 @@
 
 Arrays
 - [W3 Schools Arrays](https://www.w3schools.com/js/js_array_methods.asp)
+- [Find Method](https://www.w3schools.com/jsref/jsref_find.asp)
+- [Filter Method](https://www.w3schools.com/jsref/jsref_filter.asp)
+- [Includes Method](https://www.w3schools.com/jsref/jsref_includes_array.asp)
 
 Objects 
 - [Object keys, values, and entries methods](https://www.youtube.com/watch?v=VmicKaGcs5g)
