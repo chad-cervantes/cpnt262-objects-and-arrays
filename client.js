@@ -113,8 +113,10 @@ document.getElementById("wins").innerHTML = wins;
   //render to html//
   document.getElementById("seal").innerHTML = object.value;
 
- 
-  
+  //delete keyword//
+  delete wins.Bridgette;
+  //render to html//
+  document.getElementById("delete").innerHTML = wins.Bridgette;
 
 
 
