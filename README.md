@@ -32,3 +32,6 @@ Arrays
 - Filter Method: you can 'filter' out certain people's information in a survey form, like age
 - Find Method: you can find someone's name in a waitlist 
 - Include Method: you can try to find a name or a product within the list, and can either tell you true or false
+
+Objects
+- Values Method: it can find out the results for a competition or number amount in terms of finance 
