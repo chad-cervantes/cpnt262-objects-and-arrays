@@ -35,3 +35,4 @@ Arrays
 
 Objects
 - Values Method: it can find out the results for a competition or number amount in terms of finance 
+- Keys Method: it can identify which values they belong too (i.e. transfer of money from one person to another)
