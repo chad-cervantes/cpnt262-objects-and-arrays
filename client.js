@@ -6,54 +6,57 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
 //ARRAYS//
 
   //.push() method//
-   harryPotterCharacters.push("Draco");
+  harryPotterCharacters.push("Draco");
   //render to html//
-   document.getElementById("push").innerHTML = harryPotterCharacters; 
+  document.getElementById("push").innerHTML = harryPotterCharacters; 
   
-   // `.unshift() method//
-   harryPotterCharacters.unshift("James");
+  // `.unshift() method//
+  harryPotterCharacters.unshift("James");
   //render to html//
-   document.getElementById("unshift").innerHTML = harryPotterCharacters;
+  document.getElementById("unshift").innerHTML = harryPotterCharacters;
 
-   //.pop() method//
-    harryPotterCharacters.pop();
-   //render to html//
-    document.getElementById("pop").innerHTML = harryPotterCharacters;
+  //.pop() method//
+  harryPotterCharacters.pop();
+  //render to html//
+  document.getElementById("pop").innerHTML = harryPotterCharacters;
    
-    //.shift() method//
-    harryPotterCharacters.shift();
-   //render to html//
-    document.getElementById("shift").innerHTML = harryPotterCharacters;
-
-   //.concat() method//
-    const harryPotterVillains = ["Voldemort", "Belletrix", "Grindewald"];
-    const harryPotterCreatures = ["Dementor", "Spiders", "Trolls", "Goblins"];
-    const darkforce = harryPotterVillains.concat(harryPotterCharacters);
-   //render to html//
-    document.getElementById("concat").innerHTML = darkforce;
-
-   //.slice()method//
-    let results = harryPotterCharacters.slice(2);
-   //render to html//
-    document.getElementById("slice").innerHTML = results;
-
-   //.splice() method//
-    harryPotterCharacters.splice(2, 3, "Luna", "Cho");
+  //.shift() method//
+  harryPotterCharacters.shift();
   //render to html//
-    document.getElementById("splice").innerHTML = harryPotterCharacters;
+  document.getElementById("shift").innerHTML = harryPotterCharacters;
+
+  //.concat() method//
+  const harryPotterVillains = ["Voldemort", "Belletrix", "Grindewald"];
+  
+  const harryPotterCreatures = ["Dementor", "Spiders", "Trolls", "Goblins"];
+  
+  const darkforce = harryPotterVillains.concat(harryPotterCharacters);
+  //render to html//
+  document.getElementById("concat").innerHTML = darkforce;
+
+  //.slice()method//
+  let results = harryPotterCharacters.slice(2);
+  //render to html//
+  document.getElementById("slice").innerHTML = results;
+
+  //.splice() method//
+  harryPotterCharacters.splice(2, 3, "Luna", "Cho");
+  //render to html//
+  document.getElementById("splice").innerHTML = harryPotterCharacters;
 
   //.filter() method//
-   const ages = [17, 17, 17, 40 , 17, 42, 42, 92, 42];
-   const result = ages.filter(checkDumbledore);
+  const ages = [17, 17, 17, 40 , 17, 42, 42, 92, 42];
+  
+  const result = ages.filter(checkDumbledore);
 
-   function checkDumbledore(age) {
+  function checkDumbledore(age) {
     return age >= 50;
    }
-   //render to html//
-   document.getElementById("filter").innerHTML = ages.filter(checkDumbledore);
+  //render to html//
+  document.getElementById("filter").innerHTML = ages.filter(checkDumbledore);
  
   //.find() method//
-    function chosenOne(harryPotterCharacters) {
+  function chosenOne(harryPotterCharacters) {
     return chosenOne = "Harry";
   }
   //render it to html//
@@ -95,6 +98,7 @@ const wins = {
   };
   
   Object.freeze(obj);
+  
   console.log(obj.value);
   //render to html//
   document.getElementById("freeze").innerHTML = obj.value;
@@ -105,7 +109,9 @@ const wins = {
   }
   
   Object.seal(obj);
+  
   object.value = 34;
+ 
   console.log(object.value);
   //render to html//
   document.getElementById("seal").innerHTML = object.value;
