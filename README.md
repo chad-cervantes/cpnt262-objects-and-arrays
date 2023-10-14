@@ -20,7 +20,7 @@ Classmates
 
 - I decided to try to learn and do most of the methods. In order to do that properly, I had to research each one and try to understand their intended purpose. Once I did that, I was able to understand how they worked. I also watched some video tutorials to help me understand some of the methods too.
 
-- The methods that gave me the most trouble were the array methods every and some.
+- The methods that gave me the most trouble were the array methods every and some, and the object method object() syntax. I decided not to do them since I was getting confused, so I will definitely try to learn and practice these methods in the near future.
 
 ### Potential Uses for each methods
 
