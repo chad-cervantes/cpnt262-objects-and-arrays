@@ -64,7 +64,6 @@ document.getElementById("hp-characters").innerHTML = harryPotterCharacters;
   //render to html//
   document.getElementById("include").innerHTML = harryPotterCharacters.includes("Snape");
 
-
 //OBJECTS//
 
 const wins = {
